@@ -1,0 +1,13 @@
+.placeholder {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /*border: 2px solid;*/
+}
+
+input {
+    font-size: 40px;
+    border: 3px solid #79e879;
+    border-radius: 8px;
+    color: rgba(63,108,55,0.83);
+}
