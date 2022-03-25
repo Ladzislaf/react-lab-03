@@ -6,6 +6,7 @@ const byField = (field, type) => { // сортировка массива объ
     switch (type) {
         case 'asc': return (a, b) => a[field] > b[field] ? 1 : -1;
         case 'desc': return (a, b) => a[field] < b[field] ? 1 : -1;
+		default:
     }
 }
 
@@ -32,6 +33,7 @@ const SortTable = () => {
             case 'Name': field = 'name'; break
             case 'Price': field = 'price'; break
             case 'Count': field = 'count'; break
+			default:
         }
 
         copy.sort(byField(field, sort))

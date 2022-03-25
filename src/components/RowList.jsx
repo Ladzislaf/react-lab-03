@@ -1,10 +1,10 @@
 import RowItem from './RowItem'
 
-const RowList = ({rows}) => {
+const RowList = ({ rows }) => {
     return (
         <tbody>
-            {rows.map((row, index) => {
-                return <RowItem cells={row} key={index}/>
+            {rows.map((row) => {
+                return <RowItem cells={row} key={row.id} />
             })}
         </tbody>
     )
