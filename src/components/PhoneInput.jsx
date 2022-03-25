@@ -19,7 +19,7 @@ const PhoneInput = () => {
                 <option value="+380">🇺🇦 Ukraine</option>
                 <option value="+48">🇵🇱 Poland</option>
                 <option value="+370">🇱🇹 Lithuania</option>
-                <option value="+371">🇱🇹 Latvia</option>
+                <option value="+371">🇱🇻 Latvia</option>
             </datalist>
             <Operators country={country}/>
         </div>
